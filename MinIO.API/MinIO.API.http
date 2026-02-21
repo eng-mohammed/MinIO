@@ -1,0 +1,5 @@
+@MinIO.API_HostAddress = https://localhost:7096
+
+GET {{MinIO.API_HostAddress}}/api/files/upload-url?fileName=file.jpg
+Accept: application/json
+###
